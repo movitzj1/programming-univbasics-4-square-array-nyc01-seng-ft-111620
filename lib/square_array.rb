@@ -1,5 +1,8 @@
 def square_array(array)
   new_array = []
   array.length.times do |index|
-  return new_array.push(array[index ** 2])
+    index = index ** 2
+    new_array << array[index]
+  end
+  return new_array
 end
