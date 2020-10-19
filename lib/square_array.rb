@@ -3,6 +3,6 @@ def square_array(array)
   array.length.times do |index|
     index = index ** 2
     new_array << array[index]
-    return new_array
   end
+  return new_array
 end
